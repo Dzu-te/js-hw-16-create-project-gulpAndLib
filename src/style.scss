@@ -1,0 +1,53 @@
+$primary-bg-color: #141516;
+$secondary-bg-color: #e6ebee;
+$primary-text-color: #fff;
+$secondary-text-color: #000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightcoral;
+    color: lightblue;
+    font-size: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $secondary-bg-color;
+    color: $secondary-text-color;
+    font-size: 25px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $primary-bg-color;
+    color: white;
+    font-size: 25px;
+  }
+}
