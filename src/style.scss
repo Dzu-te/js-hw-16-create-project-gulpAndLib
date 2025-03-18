@@ -19,18 +19,13 @@ body {
 
 
 
-
-
-
-
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 480px) {
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: lightcoral;
-    color: lightblue;
+
+    color: white;
     font-size: 25px;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -43,11 +38,25 @@ body {
 
 }
 
+@media screen and (max-width: 1440px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightcoral;
+    color: lightblue;
+    font-size: 25px;
+  }
+  
+}
+
+
+
+
+
 @media screen and (max-width: 480px) {
   body {
     font-family: 'Roboto', sans-serif;
     background-color: $primary-bg-color;
-    color: white;
+    
     font-size: 25px;
   }
 }

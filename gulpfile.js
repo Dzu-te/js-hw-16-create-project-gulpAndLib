@@ -4,8 +4,13 @@ const cssnano = require('cssnano');
 const rename = require('gulp-rename');
 const postcss = require('gulp-postcss');
 const browserSync = require('browser-sync').create();
+const mqpacker = require('css-mqpacker');
+const sortCSSmq = require('sort-css-media-queries');
 
-const plugins = [cssnano({ preset: 'default' })];
+const plugins = [
+  cssnano({ preset: 'default' }),
+  mqpacker({ sort: sortCSSmq })
+];
 
 
 function scssMin() {
